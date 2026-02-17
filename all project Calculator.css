@@ -1,4 +1,9 @@
-
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
 
 /* THE REQUESTED CONTAINER DIMENSIONS */
 .calculator-container {
@@ -100,3 +105,4 @@
         font-size: 2.2rem;
     }
 }
+
