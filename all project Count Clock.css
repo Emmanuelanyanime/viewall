@@ -1,3 +1,11 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Share+Tech+Mono&display=swap');
 
 /* The Main Container */
@@ -77,3 +85,4 @@
     background: #EFEBE9; /* Very light creamy brown */
     border: 1px solid #BCAAA4;
 }
+
