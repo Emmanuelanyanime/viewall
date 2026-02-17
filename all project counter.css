@@ -1,0 +1,42 @@
+#container{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.first{
+     height: 250px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+     background-color: rgba(225,225, 225, 0.4);
+     border-radius: 10px;
+}
+.countname{
+    text-shadow: none;
+    font-size: 40px;
+    color: brown;
+}
+#counter{
+ font-size: 50px;
+}
+#button1,#button2,#button3{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+}
+#button1{
+    background-color: red;
+    color: white;
+}
+#button2{
+    background-color: gray;
+    color: white;
+}
+#button3{
+    background-color: green;
+    color: white;
+}

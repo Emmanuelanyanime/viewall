@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Share+Tech+Mono&display=swap');
+
+/* The Main Container */
+.second {
+    width: 380px;
+    height: 250px;
+    /* User Requested Background */
+    background-color: rgba(225, 225, 225, 0.4); 
+    backdrop-filter: blur(15px); /* Adds a frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Title: Digital Clock */
+.digi {
+    color: #5D4037; /* Deep Brown */
+    font-size: 0.85rem;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.clock {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Individual Unit Boxes (Hours, Min, Sec) */
+.clock div {
+    width: 82px;
+    height: 95px;
+    background: rgba(255, 255, 255, 0.5); /* Slightly lighter than container */
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D7CCC8; /* Light brown border */
+}
+
+/* The Numbers */
+.clock span:first-child {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2.2rem;
+    color: #3E2723; /* Dark Espresso Brown */
+    line-height: 1;
+}
+
+/* The "Hours/Minutes" Labels */
+.clock .text {
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    color: #8D6E63; /* Warm Brown */
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+/* AM/PM Box */
+#AmPm {
+    font-size: 1.1rem !important;
+    color: #795548 !important; /* Medium Brown */
+    font-weight: 600;
+}
+
+.clock div:last-child {
+    width: 50px;
+    height: 50px;
+    background: #EFEBE9; /* Very light creamy brown */
+    border: 1px solid #BCAAA4;
+}
